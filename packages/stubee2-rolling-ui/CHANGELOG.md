@@ -1,7 +1,7 @@
-# @stubee2/rolling-ui
+# @stubee2/stubee2-rolling-ui
 
-## 1.0.0
+## 0.1.0
 
-### Major Changes
+### Minor Changes
 
-- firsh deploy rolling-ui
+- test deploy

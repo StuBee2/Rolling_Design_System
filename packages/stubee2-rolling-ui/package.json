@@ -1,7 +1,7 @@
 {
-  "name": "@stubee2/rolling-ui",
+  "name": "@stubee2/stubee2-rolling-ui",
   "packageManager": "yarn@3.2.4",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "repository": "https://github.com/StuBee2/Rolling-Design-System",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
