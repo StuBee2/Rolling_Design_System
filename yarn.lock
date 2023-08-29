@@ -3005,28 +3005,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rolling/rolling-ui@workspace:packages/rolling-ui":
-  version: 0.0.0-use.local
-  resolution: "@rolling/rolling-ui@workspace:packages/rolling-ui"
-  dependencies:
-    "@babel/preset-env": ^7.22.10
-    "@babel/preset-react": ^7.22.5
-    "@babel/preset-typescript": ^7.22.11
-    "@storybook/addon-essentials": ^7.3.2
-    "@storybook/addon-interactions": ^7.3.2
-    "@storybook/addon-links": ^7.3.2
-    "@storybook/addon-onboarding": ^1.0.8
-    "@storybook/blocks": ^7.3.2
-    "@storybook/react": ^7.3.2
-    "@storybook/react-webpack5": ^7.3.2
-    "@storybook/testing-library": ^0.2.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    storybook: ^7.3.2
-    typescript: 4.8.4
-  languageName: unknown
-  linkType: soft
-
 "@rushstack/eslint-patch@npm:^1.2.0":
   version: 1.3.3
   resolution: "@rushstack/eslint-patch@npm:1.3.3"
@@ -4089,6 +4067,28 @@ __metadata:
   checksum: 5986ca2780c6049c08f65cda0dc2b1f063476d0a5ad337a96d641bb91131e7d4a600dcf87b25aedba747f8beb66ac0805562c46e73dc0d20222be4fc4b02309c
   languageName: node
   linkType: hard
+
+"@stubee2/rolling-ui@workspace:packages/stubee2-rolling-ui":
+  version: 0.0.0-use.local
+  resolution: "@stubee2/rolling-ui@workspace:packages/stubee2-rolling-ui"
+  dependencies:
+    "@babel/preset-env": ^7.22.10
+    "@babel/preset-react": ^7.22.5
+    "@babel/preset-typescript": ^7.22.11
+    "@storybook/addon-essentials": ^7.3.2
+    "@storybook/addon-interactions": ^7.3.2
+    "@storybook/addon-links": ^7.3.2
+    "@storybook/addon-onboarding": ^1.0.8
+    "@storybook/blocks": ^7.3.2
+    "@storybook/react": ^7.3.2
+    "@storybook/react-webpack5": ^7.3.2
+    "@storybook/testing-library": ^0.2.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    storybook: ^7.3.2
+    typescript: 4.8.4
+  languageName: unknown
+  linkType: soft
 
 "@swc/core-darwin-arm64@npm:1.3.80":
   version: 1.3.80
