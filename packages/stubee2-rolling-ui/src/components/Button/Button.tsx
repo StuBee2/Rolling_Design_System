@@ -4,7 +4,7 @@ import * as S from "./style";
 
 export const Button = ({ children, ButtonType, customStyle }: ButtonProps) => {
   return (
-    <S.Button customStyle={customStyle!!} ButtonType={ButtonType}>
+    <S.Button customStyle={customStyle} ButtonType={ButtonType}>
       {children}
     </S.Button>
   );

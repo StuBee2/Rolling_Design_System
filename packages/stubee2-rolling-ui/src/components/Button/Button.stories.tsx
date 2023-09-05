@@ -15,7 +15,7 @@ type Story = StoryObj<typeof Button>;
 
 export const GithubSignInButton: Story = {
   args: {
-    children: <p>Github 간편 로그인</p>,
+    children: <>Github 간편 로그인</>,
     ButtonType: "github",
   },
 };
@@ -23,7 +23,7 @@ export const GithubSignInButton: Story = {
 export const RollingSignInButton: Story = {
   args: {
     children: "Sign In",
-    ButtonType: "normal",
+    ButtonType: "default",
   },
 };
 
