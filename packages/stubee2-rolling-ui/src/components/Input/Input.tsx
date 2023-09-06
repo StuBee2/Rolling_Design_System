@@ -1,5 +1,6 @@
 import { InputProps } from "./type";
 import * as S from "./style";
+import React from "react";
 
 export const Input = ({
   value,

@@ -20,8 +20,6 @@
     "packages/*"
   ],
   "dependencies": {
-    "@changesets/cli": "^2.26.2",
-    "@types/styled-components": "^5.1.26",
-    "styled-components": "5.3.9"
+    "@changesets/cli": "^2.26.2"
   }
 }

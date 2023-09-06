@@ -4,6 +4,6 @@ export interface InputProps {
   value: string;
   type: string;
   placeholder: string;
-  customStyle: CSSObject;
+  customStyle?: CSSObject;
   name: string;
 }
