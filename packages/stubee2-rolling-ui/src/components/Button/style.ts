@@ -6,7 +6,7 @@ import styled, {
 import { ButtonType } from "./type";
 
 export const Button = styled.button<{
-  customStyle: CSSObject;
+  customStyle?: CSSObject;
   ButtonType: ButtonType;
 }>`
   cursor: pointer;
@@ -31,18 +31,6 @@ const getButton: Record<ButtonType, FlattenSimpleInterpolation> = {
     column-gap: 10px;
     padding: 1rem 2rem;
   `,
-  normal: css`
-    width: 130px;
-    height: 55px;
-    background-color: rgba(29, 30, 90, 1);
-    color: #fff;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: 400;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  `,
   review: css`
     width: 153px;
     height: 52px;
@@ -54,5 +42,17 @@ const getButton: Record<ButtonType, FlattenSimpleInterpolation> = {
     font-size: 18px;
     font-weight: 400;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  `,
+  default: css`
+    width: 130px;
+    height: 55px;
+    background-color: rgba(29, 30, 90, 1);
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   `,
 };

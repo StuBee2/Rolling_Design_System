@@ -1,49 +1,37 @@
-# @stubee2/stubee2-rolling-ui
-
-## 2.0.0
-
-### Major Changes
-
-- test
+# @stubee2/stubee2-rolling-toastify
 
 ## 1.0.0
 
 ### Major Changes
 
-- test
+- build toastify
 
 ## 0.5.0
 
 ### Minor Changes
 
-- test
+- fix rollingToasts
 
 ## 0.4.0
 
 ### Minor Changes
 
-- test
+- build error
 
 ## 0.3.0
 
 ### Minor Changes
 
-- test
-
-## 0.3.0
-
-### Minor Changes
-
-- test
+- build error fix
 
 ## 0.2.0
 
 ### Minor Changes
 
-- test
+- Fix RollingToastProvider
 
 ## 0.1.0
 
 ### Minor Changes
 
-- test deploy
+- deploy package

@@ -4,6 +4,8 @@ export interface ButtonProps {
   children: React.ReactNode;
   customStyle?: CSSObject;
   ButtonType: ButtonType;
+  type?: "submit" | "reset" | "button";
+  onClick?: () => void;
 }
 
-export type ButtonType = "github" | "normal" | "review";
+export type ButtonType = "github" | "review" | "default";
