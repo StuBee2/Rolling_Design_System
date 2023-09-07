@@ -8,6 +8,7 @@ export const Input = ({
   placeholder,
   name,
   customStyle,
+  onChange,
 }: InputProps) => {
   return (
     <S.InputContainer
@@ -16,6 +17,7 @@ export const Input = ({
       value={value}
       placeholder={placeholder}
       name={name}
+      onChange={(e) => onChange(e.target.value)}
     />
   );
 };

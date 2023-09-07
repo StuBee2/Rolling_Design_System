@@ -1,3 +1,4 @@
+import { Dispatch, SetStateAction } from "react";
 import { CSSObject } from "styled-components";
 
 export interface InputProps {
@@ -6,4 +7,5 @@ export interface InputProps {
   placeholder: string;
   customStyle?: CSSObject;
   name: string;
+  onChange: Dispatch<SetStateAction<string>>;
 }
