@@ -9,7 +9,7 @@ const shimmerAnimation = keyframes`
   }
 `;
 
-export const SkeletonAnimation = css`
+export const skeletonAnimation = css`
   background: linear-gradient(to right, #f2f2f2, #ddd, #f2f2f2);
   background-size: 200% 100%;
   animation: ${shimmerAnimation} 1s linear infinite;
