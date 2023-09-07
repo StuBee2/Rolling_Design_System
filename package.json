@@ -9,6 +9,7 @@
     "release": "yarn build:release && changeset publish"
   },
   "devDependencies": {
+    "@types/react": "^18.2.21",
     "eslint": "^8.47.0",
     "prettier": "^3.0.2",
     "tsconfig": "*",
@@ -20,6 +21,7 @@
     "packages/*"
   ],
   "dependencies": {
-    "@changesets/cli": "^2.26.2"
+    "@changesets/cli": "^2.26.2",
+    "react": "^18.2.0"
   }
 }

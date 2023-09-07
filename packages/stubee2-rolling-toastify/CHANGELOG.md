@@ -1,5 +1,17 @@
 # @stubee2/stubee2-rolling-toastify
 
+## 1.1.0
+
+### Minor Changes
+
+- release
+
+## 1.0.0
+
+### Major Changes
+
+- release
+
 ## 1.0.0
 
 ### Major Changes

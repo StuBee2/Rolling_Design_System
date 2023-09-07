@@ -1,5 +1,11 @@
 # @stubee2/stubee2-rolling-ui
 
+## 2.1.0
+
+### Minor Changes
+
+- release
+
 ## 2.0.0
 
 ### Major Changes
