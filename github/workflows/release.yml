@@ -23,17 +23,17 @@ jobs:
 
       - name: Creating .npmrc
         run: |
-          cat << EOF > "$HOME/.npmrc"
-            @StuBee2:registry=https://npm.pkg.github.com
-            //npm.pkg.github.com/:_authToken=$GH_REGISTRY_TOKEN
+          cat << EOF > "./.npmrc"
+            //registry.npmjs.org/:_authToken=$NPM_TOKEN
           EOF
         env:
-          GH_REGISTRY_TOKEN: ${{ secrets.GH_REGISTRY_TOKEN }}
+          $NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
         with:
           publish: yarn release
+          version: yarn versioning
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

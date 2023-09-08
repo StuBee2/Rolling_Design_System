@@ -10,12 +10,6 @@
 
 ### Major Changes
 
-- release
-
-## 1.0.0
-
-### Major Changes
-
 - build toastify
 
 ## 0.5.0
