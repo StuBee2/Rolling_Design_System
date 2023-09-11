@@ -59,7 +59,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.0.3"],\
             ["react", "npm:18.2.0"],\
             ["tsconfig", "npm:7.0.0"],\
-            ["turbo", "npm:1.10.13"]\
+            ["turbo", "npm:1.10.13"],\
+            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -7788,6 +7789,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@react-icons/all-files", [\
+        ["npm:4.1.0", {\
+          "packageLocation": "./.yarn/cache/@react-icons-all-files-npm-4.1.0-0c7fb4e7cd-c34c644650.zip/node_modules/@react-icons/all-files/",\
+          "packageDependencies": [\
+            ["@react-icons/all-files", "npm:4.1.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:4.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/@react-icons-all-files-virtual-669fb6d211/0/cache/@react-icons-all-files-npm-4.1.0-0c7fb4e7cd-c34c644650.zip/node_modules/@react-icons/all-files/",\
+          "packageDependencies": [\
+            ["@react-icons/all-files", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:4.1.0"],\
+            ["@types/react", "npm:18.2.21"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@sinclair/typebox", [\
         ["npm:0.27.8", {\
           "packageLocation": "./.yarn/cache/@sinclair-typebox-npm-0.27.8-23e206d653-00bd7362a3.zip/node_modules/@sinclair/typebox/",\
@@ -9225,6 +9248,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/preset-env", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:7.22.14"],\
             ["@babel/preset-react", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:7.22.5"],\
             ["@babel/preset-typescript", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:7.22.11"],\
+            ["@react-icons/all-files", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:4.1.0"],\
             ["@storybook/addon-essentials", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:7.4.0"],\
             ["@storybook/addon-interactions", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:7.4.0"],\
             ["@storybook/addon-links", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:7.4.0"],\
@@ -9243,7 +9267,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["esbuild-plugin-inline-image", "npm:0.0.9"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:97cad30da5ffd1684193b98b09bfeab4459a507e39e3361f60781726ce571f69ae74926a75f9bb843abf8e7839f404239d52769ef510ac28a68086e010bbe9d3#npm:18.2.0"],\
-            ["react-icons", "virtual:97cad30da5ffd1684193b98b09bfeab4459a507e39e3361f60781726ce571f69ae74926a75f9bb843abf8e7839f404239d52769ef510ac28a68086e010bbe9d3#npm:4.10.1"],\
+            ["react-icons", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:4.11.0"],\
             ["react-is", "npm:18.2.0"],\
             ["storybook", "npm:7.4.0"],\
             ["styled-components", "virtual:97cad30da5ffd1684193b98b09bfeab4459a507e39e3361f60781726ce571f69ae74926a75f9bb843abf8e7839f404239d52769ef510ac28a68086e010bbe9d3#npm:5.3.9"],\
@@ -17867,10 +17891,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
+        ["npm:4.11.0", {\
+          "packageLocation": "./.yarn/cache/react-icons-npm-4.11.0-08184d1639-7b8b80bbe2.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "npm:4.11.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
         ["virtual:97cad30da5ffd1684193b98b09bfeab4459a507e39e3361f60781726ce571f69ae74926a75f9bb843abf8e7839f404239d52769ef510ac28a68086e010bbe9d3#npm:4.10.1", {\
           "packageLocation": "./.yarn/__virtual__/react-icons-virtual-2dc66a1e58/0/cache/react-icons-npm-4.10.1-74abe904b6-b6c8d4fe48.zip/node_modules/react-icons/",\
           "packageDependencies": [\
             ["react-icons", "virtual:97cad30da5ffd1684193b98b09bfeab4459a507e39e3361f60781726ce571f69ae74926a75f9bb843abf8e7839f404239d52769ef510ac28a68086e010bbe9d3#npm:4.10.1"],\
+            ["@types/react", "npm:18.2.21"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:4.11.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-icons-virtual-c3aab85def/0/cache/react-icons-npm-4.11.0-08184d1639-7b8b80bbe2.zip/node_modules/react-icons/",\
+          "packageDependencies": [\
+            ["react-icons", "virtual:a2456a3f26d4fb5f16abb2ba59b51b53a6e4b90a1a59ee1e58a384606ac2104b0ff4d5446ac38065a32dc9863102fcc4a40d1318945da1d8bfc47b65fe39146b#npm:4.11.0"],\
             ["@types/react", "npm:18.2.21"],\
             ["react", "npm:18.2.0"]\
           ],\
@@ -18450,7 +18494,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prettier", "npm:3.0.3"],\
             ["react", "npm:18.2.0"],\
             ["tsconfig", "npm:7.0.0"],\
-            ["turbo", "npm:1.10.13"]\
+            ["turbo", "npm:1.10.13"],\
+            ["typescript", "patch:typescript@npm%3A4.8.4#~builtin<compat/typescript>::version=4.8.4&hash=701156"]\
           ],\
           "linkType": "SOFT"\
         }]\

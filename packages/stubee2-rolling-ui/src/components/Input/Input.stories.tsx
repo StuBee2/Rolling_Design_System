@@ -19,6 +19,7 @@ export const IdInput: Story = {
     placeholder: "아이디를 입력해주세요",
     name: "id",
     value: "",
+    isError: false,
     customStyle: {
       width: "500px",
       height: "56px",
@@ -38,6 +39,7 @@ export const PwInput: Story = {
     placeholder: "비밀번호를 입력해주세요",
     name: "id",
     value: "",
+    isError: true,
     customStyle: {
       width: "500px",
       height: "56px",

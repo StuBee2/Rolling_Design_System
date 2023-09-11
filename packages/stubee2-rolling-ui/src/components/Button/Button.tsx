@@ -2,24 +2,8 @@ import React from "react";
 import { ButtonProps } from "./type";
 import * as S from "./style";
 
-export const Button = ({
-  children,
-  ButtonType,
-  customStyle,
-  type,
-  onClick,
-}: ButtonProps) => {
+export const Button = ({ ...attr }: ButtonProps) => {
   return (
-    <S.Button
-      type={type}
-      customStyle={customStyle}
-      ButtonType={ButtonType}
-      onClick={(e) => {
-        e.preventDefault();
-        onClick!!();
-      }}
-    >
-      {children}
-    </S.Button>
+    <S.Button {...attr} />
   );
 };

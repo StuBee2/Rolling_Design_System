@@ -8,4 +8,4 @@ export interface ButtonProps {
   onClick?: () => void;
 }
 
-export type ButtonType = "github" | "review" | "default";
+export type ButtonType = "github" | "review" | "custom" | "default";

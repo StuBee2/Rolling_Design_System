@@ -7,5 +7,6 @@ export interface InputProps {
   placeholder?: string;
   customStyle?: CSSObject;
   name?: string;
-  onChange: Dispatch<SetStateAction<string>>;
+  handleChange: Dispatch<SetStateAction<string>>;
+  isError?: boolean;
 }

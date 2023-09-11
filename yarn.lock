@@ -3388,6 +3388,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-icons/all-files@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "@react-icons/all-files@npm:4.1.0"
+  peerDependencies:
+    react: "*"
+  checksum: c34c644650a144e4f2157c20b3106200ac1f76b3132dcda1a40f061e000a34c78df188266395afae571d5c85bf48365824db7b1bf8b7ae6229fdc148c941ab85
+  languageName: node
+  linkType: hard
+
 "@sinclair/typebox@npm:^0.27.8":
   version: 0.27.8
   resolution: "@sinclair/typebox@npm:0.27.8"
@@ -4483,6 +4492,7 @@ __metadata:
     "@babel/preset-env": ^7.22.10
     "@babel/preset-react": ^7.22.5
     "@babel/preset-typescript": ^7.22.11
+    "@react-icons/all-files": ^4.1.0
     "@storybook/addon-essentials": ^7.3.2
     "@storybook/addon-interactions": ^7.3.2
     "@storybook/addon-links": ^7.3.2
@@ -4501,7 +4511,7 @@ __metadata:
     esbuild-plugin-inline-image: ^0.0.9
     react: ^18.2.0
     react-dom: ^18.2.0
-    react-icons: ^4.10.1
+    react-icons: ^4.11.0
     react-is: ^18.2.0
     storybook: ^7.3.2
     styled-components: 5.3.9
@@ -11898,6 +11908,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-icons@npm:^4.11.0":
+  version: 4.11.0
+  resolution: "react-icons@npm:4.11.0"
+  peerDependencies:
+    react: "*"
+  checksum: 7b8b80bbe2dabcc54b6c2129b7761a04b19caebe24389adc7683478ef41212b9ca0b53c63abcc06b3c01b94c84855ec5142b4c357e19c4aaaad9a4db23a3c485
+  languageName: node
+  linkType: hard
+
 "react-inspector@npm:^6.0.0":
   version: 6.0.2
   resolution: "react-inspector@npm:6.0.2"
@@ -12393,6 +12412,7 @@ __metadata:
     react: ^18.2.0
     tsconfig: "*"
     turbo: latest
+    typescript: 4.8.4
   languageName: unknown
   linkType: soft
 
