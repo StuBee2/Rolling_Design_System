@@ -9,4 +9,5 @@ export interface InputProps {
   name?: string;
   handleChange: Dispatch<SetStateAction<string>>;
   isError?: boolean;
+  errorMessage?: string;
 }

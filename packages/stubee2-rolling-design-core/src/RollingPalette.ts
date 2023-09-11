@@ -12,7 +12,7 @@ const unEmphasize = {
   Lighter: "rgba(242, 244, 245, 1)",
   Light: "rgba(115, 123, 152, 0)",
   Base: "rgba(189, 194, 208, 1)",
-  DarK: "rgba(115, 123, 152, 1)",
+  Dark: "rgba(115, 123, 152, 1)",
 };
 
 const main = {

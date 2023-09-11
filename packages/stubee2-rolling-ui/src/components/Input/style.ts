@@ -5,7 +5,7 @@ export const InputContainer = styled.input<{
   isError?: boolean;
 }>`
   ${({ customStyle }) => customStyle}
-  border: ${({ isError }) => isError && "1px solid rgba(214, 21, 9, 1)"};
+  border: ${({ isError }) => isError && "1px solid rgba(241, 40, 28, 1)"};
 `;
 
 export const ErrorContainer = styled.div`
@@ -18,6 +18,6 @@ export const ErrorContainer = styled.div`
   }
   p {
     font-size: 12px;
-    color: rgba(214, 21, 9, 1);
+    color: rgba(241, 40, 28, 1);
   }
 `;

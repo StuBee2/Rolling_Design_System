@@ -16,41 +16,47 @@ type Story = StoryObj<typeof StarRating>;
 export const MaxStarRating: Story = {
   args: {
     starRatingCount: 5,
-    size: 20,
+    width: 27,
+    height: 28,
   },
 };
 
 export const FourStarRating: Story = {
   args: {
     starRatingCount: 4,
-    size: 20,
+    width: 27,
+    height: 28,
   },
 };
 
 export const ThreeStarRating: Story = {
   args: {
     starRatingCount: 3,
-    size: 20,
+    width: 27,
+    height: 28,
   },
 };
 
 export const TwoStarRating: Story = {
   args: {
     starRatingCount: 2,
-    size: 20,
+    width: 27,
+    height: 28,
   },
 };
 
 export const OneStarRating: Story = {
   args: {
     starRatingCount: 1,
-    size: 20,
+    width: 27,
+    height: 28,
   },
 };
 
 export const MinStarRating: Story = {
   args: {
     starRatingCount: 0,
-    size: 20,
+    width: 27,
+    height: 28,
   },
 };

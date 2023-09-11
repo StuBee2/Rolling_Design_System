@@ -20,6 +20,7 @@ export const IdInput: Story = {
     name: "id",
     value: "",
     isError: false,
+    errorMessage: "아이디가 잘못되었습니다",
     customStyle: {
       width: "500px",
       height: "56px",
@@ -40,6 +41,7 @@ export const PwInput: Story = {
     name: "id",
     value: "",
     isError: true,
+    errorMessage: "비밀번호가 잘못되었습니다",
     customStyle: {
       width: "500px",
       height: "56px",
