@@ -17,12 +17,12 @@ type Story = StoryObj<typeof Button>;
 
 export const GithubSignInButton: Story = {
   args: {
-    children:
+    children: (
       <>
         <img src={github} alt="이미지 없음" />
         <p>Github 간편 로그인</p>
       </>
-    ,
+    ),
     ButtonType: "github",
   },
 };
@@ -41,7 +41,6 @@ export const ReviewButton: Story = {
   },
 };
 
-
 export const customButton: Story = {
   args: {
     children: "등록하기",
@@ -57,7 +56,7 @@ export const customButton: Story = {
       border: "none",
       boxShadow: "0px 4px 8px rgba(0,0,0,0.3)",
       fontWeight: "600",
-      fontSize: "17px"
-    }
+      fontSize: "17px",
+    },
   },
 };

@@ -1,13 +1,15 @@
 import { Dispatch, SetStateAction } from "react";
 import { CSSObject } from "styled-components";
 
-export interface InputProps {
+export interface TextInputProps {
   value: string;
-  type: string;
+  type?: string;
+  textType: "input" | "textarea";
+  handleObjectChange?: Dispatch<SetStateAction<Record<string, string>>>;
+  handleStringChange?: Dispatch<SetStateAction<string>>;
   placeholder?: string;
   customStyle?: CSSObject;
   name?: string;
-  handleChange: Dispatch<SetStateAction<string>>;
   isError?: boolean;
   errorMessage?: string;
 }

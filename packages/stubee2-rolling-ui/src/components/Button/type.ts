@@ -5,7 +5,7 @@ export interface ButtonProps {
   customStyle?: CSSObject;
   ButtonType: ButtonType;
   type?: "submit" | "reset" | "button";
-  onClick?: () => void;
+  onClick?: (e?: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
 export type ButtonType = "github" | "review" | "custom" | "default";
