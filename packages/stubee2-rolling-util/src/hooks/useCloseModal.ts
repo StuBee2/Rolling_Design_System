@@ -12,6 +12,7 @@ export const useCloseModal = (setState: Dispatch<SetStateAction<boolean>>) => {
       handleKeyDown(e as unknown as KeyboardEvent<Element>);
     window.addEventListener("keydown", eventListener);
     return () => {
+      document.body.style.overflow = "unset";
       window.removeEventListener("keydown", eventListener);
     };
   }, []);

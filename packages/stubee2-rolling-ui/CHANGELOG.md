@@ -1,5 +1,35 @@
 # @stubee2/stubee2-rolling-ui
 
+## 2.7.0
+
+### Minor Changes
+
+- add dropDownSelect
+
+## 2.6.0
+
+### Minor Changes
+
+- release
+
+## 2.5.5
+
+### Patch Changes
+
+- release
+
+## 2.5.4
+
+### Patch Changes
+
+- release
+
+## 2.5.3
+
+### Patch Changes
+
+- bug patch textinput
+
 ## 2.5.2
 
 ### Patch Changes

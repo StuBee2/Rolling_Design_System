@@ -6,7 +6,7 @@ interface Props {
   errorMessage: string;
 }
 
-export default function TextError({ errorMessage }: Props) {
+export default function Error({ errorMessage }: Props) {
   return (
     <S.ErrorContainer>
       <IoWarningOutline size={15} color={"#FB2047"} />

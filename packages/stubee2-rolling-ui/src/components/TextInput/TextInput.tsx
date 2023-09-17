@@ -1,7 +1,7 @@
 import { TextInputProps } from "./type";
 import React from "react";
 import * as S from "./style";
-import TextError from "../TextError";
+import Error from "../common/Error";
 
 export const TextInput = ({
   handleObjectChange,
@@ -25,7 +25,7 @@ export const TextInput = ({
   return (
     <S.TextInputContainer>
       <S.TextInputBar as={textType} onChange={handleInputChange} {...attr} />
-      {attr.isError && <TextError errorMessage={errorMessage!!} />}
+      {attr.isError && <Error errorMessage={errorMessage!!} />}
     </S.TextInputContainer>
   );
 };
