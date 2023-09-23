@@ -5,8 +5,9 @@ export interface TextInputProps {
   value: string;
   type?: string;
   textType?: "input" | "textarea";
-  handleObjectChange?: Dispatch<SetStateAction<Record<string, string>>>;
-  handleStringChange?: Dispatch<SetStateAction<string>>;
+  handleChange?: (
+    e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
+  ) => void;
   placeholder?: string;
   customStyle?: CSSObject;
   name?: string;

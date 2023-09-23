@@ -11,6 +11,7 @@ export const TextInputBar = styled.input<{
       : "1px solid rgba(189, 194, 208, 1);"};
   border-radius: 6px;
   outline: none;
+  resize: none;
   ::placeholder {
     color: rgba(189, 194, 208, 1);
   }

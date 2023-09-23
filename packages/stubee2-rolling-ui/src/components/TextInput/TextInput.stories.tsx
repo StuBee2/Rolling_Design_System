@@ -62,7 +62,6 @@ export const ReviewTextArea: Story = {
       height: "150px",
       padding: "20px 20px",
       fontSize: "18px",
-      resize: "none",
     },
   },
 };
