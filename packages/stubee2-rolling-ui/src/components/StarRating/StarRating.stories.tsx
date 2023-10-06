@@ -60,3 +60,11 @@ export const MinStarRating: Story = {
     height: 28,
   },
 };
+
+export const DecimalPointStarRating: Story = {
+  args: {
+    starRatingCount: 1.5,
+    width: 27,
+    height: 28,
+  },
+};

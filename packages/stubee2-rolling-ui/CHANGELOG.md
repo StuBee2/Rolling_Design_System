@@ -1,5 +1,23 @@
 # @stubee2/stubee2-rolling-ui
 
+## 2.8.8
+
+### Patch Changes
+
+- release
+
+## 2.8.7
+
+### Patch Changes
+
+- release
+
+## 2.8.6
+
+### Patch Changes
+
+- release
+
 ## 2.8.5
 
 ### Patch Changes

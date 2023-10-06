@@ -7,7 +7,7 @@ export const StarRating = ({ starRatingCount, ...attr }: StarRatingProps) => {
       {Array.from({ length: 5 }).map((_, idx) => (
         <StarRatingItem
           key={idx}
-          color={idx < starRatingCount ? "#FAD85F" : "#d9d9d9"}
+          color={idx < Math.round(starRatingCount) ? "#FAD85F" : "#d9d9d9"}
           {...attr}
         />
       ))}

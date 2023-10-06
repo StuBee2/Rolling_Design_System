@@ -14,4 +14,5 @@ export interface TextInputProps {
   isError?: boolean;
   errorMessage?: string;
   autocomplete?: "on" | "off";
+  disabled?: boolean;
 }

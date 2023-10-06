@@ -1,5 +1,17 @@
 # @stubee2/stubee2-rolling-util
 
+## 1.2.1
+
+### Patch Changes
+
+- release
+
+## 1.2.0
+
+### Minor Changes
+
+- releasse
+
 ## 1.1.1
 
 ### Patch Changes
