@@ -5,8 +5,6 @@ import { IoIosArrowDown } from "@react-icons/all-files/io/IoIosArrowDown";
 
 export const DropDownSelect = ({
   dropDownSelectItems,
-  isError,
-  errorMessage,
   width,
   height,
   selectItem,

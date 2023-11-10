@@ -11,4 +11,6 @@ export interface StarRatingItemProps {
   height: number;
   cursor?: string;
   onClick?: () => void;
+  onMouseEnter?: () => void;
+  onMouseLeave?: () => void;
 }

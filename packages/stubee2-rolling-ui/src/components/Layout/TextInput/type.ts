@@ -1,4 +1,3 @@
-import { Dispatch, SetStateAction } from "react";
 import { CSSObject } from "styled-components";
 
 export interface TextInputProps {
@@ -6,13 +5,16 @@ export interface TextInputProps {
   type?: string;
   textType?: "input" | "textarea";
   handleChange?: (
-    e: React.ChangeEvent<HTMLTextAreaElement | HTMLInputElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => void;
   placeholder?: string;
   customStyle?: CSSObject;
   name?: string;
+  autoComplete?: "on" | "off";
+  disabled?: boolean;
+  inputRef?: React.RefObject<HTMLInputElement>;
+  onFocus?: () => void;
+  onBlur?: () => void;
   isError?: boolean;
   errorMessage?: string;
-  autocomplete?: "on" | "off";
-  disabled?: boolean;
 }

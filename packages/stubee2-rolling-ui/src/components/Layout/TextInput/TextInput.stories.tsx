@@ -19,8 +19,6 @@ export const IdTextInput: Story = {
     placeholder: "아이디를 입력해주세요",
     name: "id",
     value: "",
-    isError: false,
-    errorMessage: "아이디가 잘못되었습니다",
     customStyle: {
       width: "500px",
       height: "56px",
@@ -28,6 +26,8 @@ export const IdTextInput: Story = {
       paddingLeft: "20px",
       fontSize: "18px",
     },
+    isError: true,
+    errorMessage: "에러가 발생했다.",
   },
 };
 
@@ -37,8 +37,6 @@ export const PwTextInput: Story = {
     placeholder: "비밀번호를 입력해주세요",
     name: "id",
     value: "",
-    isError: true,
-    errorMessage: "비밀번호가 잘못되었습니다",
     customStyle: {
       width: "500px",
       height: "56px",
@@ -53,15 +51,14 @@ export const ReviewTextArea: Story = {
   args: {
     name: "review",
     placeholder: "리뷰 내용을 작성해주세요",
-    isError: true,
     value: "",
     textType: "textarea",
-    errorMessage: "리뷰 내용을 입력해주세요",
     customStyle: {
       width: "652px",
       height: "150px",
       padding: "20px 20px",
       fontSize: "18px",
     },
+    isError: true,
   },
 };

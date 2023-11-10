@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { StarRatingItemProps, StarRatingProps } from "./type";
 
 export const StarRating = ({ starRatingCount, ...attr }: StarRatingProps) => {
