@@ -17,7 +17,14 @@ export const PositionDropDown: Story = {
   args: {
     width: "500px",
     height: "60px",
+
     selectItem: "포지션을 선택해주세요",
+
+    dropDownSelectBoxHeight: "240px",
+    dropDownSelectItemHeight: "50px",
+
+    isReverse: false,
+
     dropDownSelectItems: [
       "포지션을 선택해주세요",
       "Frontend 개발자",
