@@ -1,5 +1,11 @@
 # @stubee2/stubee2-rolling-util
 
+## 1.2.2
+
+### Patch Changes
+
+- fix getTimeAgo param type
+
 ## 1.2.1
 
 ### Patch Changes

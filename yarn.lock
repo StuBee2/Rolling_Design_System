@@ -4407,9 +4407,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stubee2/stubee2-rolling-design-token@workspace:packages/stubee2-rolling-design-core":
+"@stubee2/stubee2-rolling-design-token@workspace:packages/stubee2-rolling-design-token":
   version: 0.0.0-use.local
-  resolution: "@stubee2/stubee2-rolling-design-token@workspace:packages/stubee2-rolling-design-core"
+  resolution: "@stubee2/stubee2-rolling-design-token@workspace:packages/stubee2-rolling-design-token"
   dependencies:
     "@babel/cli": ^7.22.10
     "@babel/preset-env": ^7.22.10

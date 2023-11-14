@@ -8,4 +8,4 @@ export interface ButtonProps {
   onClick?: (e?: React.MouseEvent<HTMLButtonElement>) => void;
 }
 
-export type ButtonType = "github" | "review" | "custom" | "default";
+export type ButtonType = "review" | "custom" | "default";

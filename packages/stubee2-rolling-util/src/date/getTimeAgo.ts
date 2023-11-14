@@ -1,9 +1,8 @@
-export const getTimeAgo = (date: string | undefined): string => {
-  if (typeof date === "undefined") {
+export const getTimeAgo = (pastDate: Date | undefined): string => {
+  if (typeof pastDate === "undefined") {
     return "0초 전";
   }
   const currentDate = new Date();
-  const pastDate = new Date(date);
 
   const timeDifference = currentDate.getTime() - pastDate.getTime();
   const seconds = Math.floor(timeDifference / 1000);

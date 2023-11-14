@@ -1,7 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react";
-import React from "react";
 import { Button } from "./Button";
-import github from "../../assets/github.svg";
 
 const meta: Meta<typeof Button> = {
   title: "Ui/Button",
@@ -14,18 +12,6 @@ const meta: Meta<typeof Button> = {
 
 export default meta;
 type Story = StoryObj<typeof Button>;
-
-export const GithubSignInButton: Story = {
-  args: {
-    children: (
-      <>
-        <img src={github} alt="이미지 없음" />
-        <p>Github 간편 로그인</p>
-      </>
-    ),
-    ButtonType: "github",
-  },
-};
 
 export const RollingSignInButton: Story = {
   args: {

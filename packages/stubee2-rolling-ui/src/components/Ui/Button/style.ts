@@ -15,27 +15,6 @@ export const Button = styled.button<{
 `;
 
 const getButton: Record<ButtonType, FlattenSimpleInterpolation> = {
-  github: css`
-    width: 100%;
-    height: 75px;
-    outline: none;
-    border: none;
-    border-radius: 15px;
-    background-color: #000;
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 10px;
-    padding: 1rem 2rem;
-
-    img {
-      width: 43px;
-      height: 43px;
-    }
-  `,
   review: css`
     width: 153px;
     height: 52px;
