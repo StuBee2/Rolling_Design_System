@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from "@storybook/react";
-import { Input } from "./Input";
+import { TextInput } from "./TextInput";
 
-const meta: Meta<typeof Input> = {
-  title: "Ui/Input",
-  component: Input,
+const meta: Meta<typeof TextInput> = {
+  title: "Ui/TextInput",
+  component: TextInput,
   parameters: {
     layout: "centered",
   },
@@ -11,9 +11,9 @@ const meta: Meta<typeof Input> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof Input>;
+type Story = StoryObj<typeof TextInput>;
 
-export const IdInput: Story = {
+export const IdTextInput: Story = {
   args: {
     type: "text",
     placeholder: "아이디를 입력해주세요",
@@ -22,17 +22,16 @@ export const IdInput: Story = {
     customStyle: {
       width: "500px",
       height: "56px",
-      borderRadius: "6px",
-      outline: "none",
-      border: "1px solid rgba(189, 194, 208, 1)",
       backgroundColor: "#fff",
       paddingLeft: "20px",
       fontSize: "18px",
     },
+    isError: true,
+    errorMessage: "에러가 발생했다.",
   },
 };
 
-export const PwInput: Story = {
+export const PwTextInput: Story = {
   args: {
     type: "password",
     placeholder: "비밀번호를 입력해주세요",
@@ -41,12 +40,25 @@ export const PwInput: Story = {
     customStyle: {
       width: "500px",
       height: "56px",
-      borderRadius: "6px",
-      outline: "none",
-      border: "1px solid rgba(189, 194, 208, 1)",
       backgroundColor: "#fff",
       paddingLeft: "20px",
       fontSize: "18px",
     },
+  },
+};
+
+export const ReviewTextArea: Story = {
+  args: {
+    name: "review",
+    placeholder: "리뷰 내용을 작성해주세요",
+    value: "",
+    textType: "textarea",
+    customStyle: {
+      width: "652px",
+      height: "150px",
+      padding: "20px 20px",
+      fontSize: "18px",
+    },
+    isError: true,
   },
 };

@@ -1,5 +1,4 @@
 import { Meta, StoryObj } from "@storybook/react";
-import React from "react";
 import { Button } from "./Button";
 
 const meta: Meta<typeof Button> = {
@@ -14,13 +13,6 @@ const meta: Meta<typeof Button> = {
 export default meta;
 type Story = StoryObj<typeof Button>;
 
-export const GithubSignInButton: Story = {
-  args: {
-    children: <>Github 간편 로그인</>,
-    ButtonType: "github",
-  },
-};
-
 export const RollingSignInButton: Story = {
   args: {
     children: "Sign In",
@@ -32,5 +24,25 @@ export const ReviewButton: Story = {
   args: {
     children: "리뷰등록",
     ButtonType: "review",
+  },
+};
+
+export const customButton: Story = {
+  args: {
+    children: "등록하기",
+    ButtonType: "custom",
+    customStyle: {
+      backgroundColor: "rgba(72, 105, 246, 1)",
+      width: "153px",
+      height: "52px",
+      cursor: "pointer",
+      color: "#fff",
+      borderRadius: "7px",
+      outline: "none",
+      border: "none",
+      boxShadow: "0px 4px 8px rgba(0,0,0,0.3)",
+      fontWeight: "600",
+      fontSize: "17px",
+    },
   },
 };
