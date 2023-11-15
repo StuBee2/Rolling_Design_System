@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import * as S from "./style";
 import { DrowDownSelectProps } from "./type";
 import { IoIosArrowDown } from "@react-icons/all-files/io/IoIosArrowDown";
@@ -8,6 +8,7 @@ export const DropDownSelect = ({ ...attr }: DrowDownSelectProps) => {
     <S.DropDownSelectContainer width={attr.width}>
       <S.DropDownSelectWrapper
         height={attr.height}
+        dropDownSelectCustomStyle={attr.dropDownSelectCustomStyle}
         onClick={() => attr.setIsReverse((prev) => !prev)}
       >
         <p>{attr.selectItem}</p>
@@ -19,7 +20,10 @@ export const DropDownSelect = ({ ...attr }: DrowDownSelectProps) => {
       {attr.isReverse && (
         <S.DropDownSelectItemContainer
           height={attr.height}
-          dropDownSelectBoxHeight={attr.dropDownSelectBoxHeight}
+          dropDownSelectItemBoxMaxHeight={attr.dropDownSelectItemBoxMaxHeight}
+          dropDownSelectItemBoxCustomStyle={
+            attr.dropDownSelectItemBoxCustomStyle
+          }
         >
           <S.DropDownSelectItemWrapper>
             {attr.dropDownSelectItems.map((item, idx) => (

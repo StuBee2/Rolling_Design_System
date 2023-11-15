@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { CSSObject } from "styled-components";
 
 export const DropDownSelectContainer = styled.div<{
   width: string;
@@ -9,9 +9,12 @@ export const DropDownSelectContainer = styled.div<{
   font-size: 15px;
 `;
 
-export const DropDownSelectWrapper = styled.div<{ height: string }>`
-  width: 100%;
-  height: ${({ height }) => height};
+export const DropDownSelectWrapper = styled.div<{
+  height: string;
+  dropDownSelectCustomStyle?: CSSObject;
+}>`
+  width: 100% !important;
+  height: ${({ height }) => height} !important;
 
   display: flex;
   align-items: center;
@@ -34,6 +37,8 @@ export const DropDownSelectWrapper = styled.div<{ height: string }>`
       display: none;
     }
   }
+
+  ${({ dropDownSelectCustomStyle }) => dropDownSelectCustomStyle};
 `;
 
 export const DropDownSelectIcon = styled.div<{ isReverse: boolean }>`
@@ -46,11 +51,12 @@ export const DropDownSelectIcon = styled.div<{ isReverse: boolean }>`
 
 export const DropDownSelectItemContainer = styled.div<{
   height: string;
-  dropDownSelectBoxHeight?: string;
+  dropDownSelectItemBoxMaxHeight?: string;
+  dropDownSelectItemBoxCustomStyle?: CSSObject;
 }>`
   width: 100%;
-  max-height: ${({ dropDownSelectBoxHeight }) =>
-    dropDownSelectBoxHeight || "250px"};
+  max-height: ${({ dropDownSelectItemBoxMaxHeight }) =>
+    dropDownSelectItemBoxMaxHeight || "250px"};
 
   position: absolute;
   top: ${({ height }) => height};
@@ -64,6 +70,8 @@ export const DropDownSelectItemContainer = styled.div<{
   border: 1px solid rgba(189, 194, 208, 1);
 
   overflow: hidden;
+
+  ${({ dropDownSelectItemBoxCustomStyle }) => dropDownSelectItemBoxCustomStyle};
 `;
 
 export const DropDownSelectItemWrapper = styled.div`

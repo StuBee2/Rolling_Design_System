@@ -1,12 +1,13 @@
 import { Dispatch, SetStateAction } from "react";
+import { CSSObject } from "styled-components";
 
 export interface DrowDownSelectProps {
-  dropDownSelectItems: string[];
-
   width: string;
   height: string;
 
-  dropDownSelectBoxHeight?: string;
+  dropDownSelectItems: string[];
+
+  dropDownSelectItemBoxMaxHeight?: string;
   dropDownSelectItemHeight?: string;
 
   selectItem: string;
@@ -14,4 +15,7 @@ export interface DrowDownSelectProps {
 
   isReverse: boolean;
   setIsReverse: Dispatch<SetStateAction<boolean>>;
+
+  dropDownSelectCustomStyle?: CSSObject;
+  dropDownSelectItemBoxCustomStyle?: CSSObject;
 }

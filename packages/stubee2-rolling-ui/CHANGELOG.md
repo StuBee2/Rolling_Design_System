@@ -1,5 +1,17 @@
 # @stubee2/stubee2-rolling-ui
 
+## 3.1.1
+
+### Patch Changes
+
+- fix customStyle in dropdownselect
+
+## 3.1.0
+
+### Minor Changes
+
+- update dropDownSelect
+
 ## 3.0.4
 
 ### Patch Changes

@@ -20,7 +20,7 @@ export const PositionDropDown: Story = {
 
     selectItem: "포지션을 선택해주세요",
 
-    dropDownSelectBoxHeight: "240px",
+    dropDownSelectItemBoxMaxHeight: "240px",
     dropDownSelectItemHeight: "50px",
 
     isReverse: false,
