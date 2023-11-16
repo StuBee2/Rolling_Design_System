@@ -41,11 +41,12 @@ export const DropDownSelectWrapper = styled.div<{
   ${({ dropDownSelectCustomStyle }) => dropDownSelectCustomStyle};
 `;
 
-export const DropDownSelectIcon = styled.div<{ isReverse: boolean }>`
+export const DropDownSelectIcon = styled.div<{ isShowingItemList: boolean }>`
   display: flex;
   align-items: center;
   transition: all 0.4s ease;
-  transform: ${({ isReverse }) => !isReverse && "rotate(180deg)"};
+  transform: ${({ isShowingItemList }) =>
+    !isShowingItemList && "rotate(180deg)"};
   margin-right: 15px;
 `;
 

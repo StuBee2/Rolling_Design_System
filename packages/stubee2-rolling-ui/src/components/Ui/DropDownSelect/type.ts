@@ -5,17 +5,17 @@ export interface DrowDownSelectProps {
   width: string;
   height: string;
 
-  dropDownSelectItems: string[];
+  itemList: string[];
 
-  dropDownSelectItemBoxMaxHeight?: string;
-  dropDownSelectItemHeight?: string;
+  itemListMaxHeight?: string;
+  itemHeight?: string;
 
   selectItem: string;
   setSelectItem: Dispatch<SetStateAction<string>>;
 
-  isReverse: boolean;
-  setIsReverse: Dispatch<SetStateAction<boolean>>;
+  isShowingItemList: boolean;
+  setIsShowingItemList: Dispatch<SetStateAction<boolean>>;
 
   dropDownSelectCustomStyle?: CSSObject;
-  dropDownSelectItemBoxCustomStyle?: CSSObject;
+  itemListCustomStyle?: CSSObject;
 }

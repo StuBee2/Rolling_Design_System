@@ -20,12 +20,12 @@ export const PositionDropDown: Story = {
 
     selectItem: "포지션을 선택해주세요",
 
-    dropDownSelectItemBoxMaxHeight: "240px",
-    dropDownSelectItemHeight: "50px",
+    itemListMaxHeight: "240px",
+    itemHeight: "50px",
 
-    isReverse: false,
+    isShowingItemList: false,
 
-    dropDownSelectItems: [
+    itemList: [
       "포지션을 선택해주세요",
       "Frontend 개발자",
       "BackEnd 개발자",

@@ -9,30 +9,28 @@ export const DropDownSelect = ({ ...attr }: DrowDownSelectProps) => {
       <S.DropDownSelectWrapper
         height={attr.height}
         dropDownSelectCustomStyle={attr.dropDownSelectCustomStyle}
-        onClick={() => attr.setIsReverse((prev) => !prev)}
+        onClick={() => attr.setIsShowingItemList((prev) => !prev)}
       >
         <p>{attr.selectItem}</p>
-        <S.DropDownSelectIcon isReverse={attr.isReverse}>
+        <S.DropDownSelectIcon isShowingItemList={attr.isShowingItemList}>
           <IoIosArrowDown size={20} />
         </S.DropDownSelectIcon>
       </S.DropDownSelectWrapper>
 
-      {attr.isReverse && (
+      {attr.isShowingItemList && (
         <S.DropDownSelectItemContainer
           height={attr.height}
-          dropDownSelectItemBoxMaxHeight={attr.dropDownSelectItemBoxMaxHeight}
-          dropDownSelectItemBoxCustomStyle={
-            attr.dropDownSelectItemBoxCustomStyle
-          }
+          dropDownSelectItemBoxMaxHeight={attr.itemListMaxHeight}
+          dropDownSelectItemBoxCustomStyle={attr.itemListCustomStyle}
         >
           <S.DropDownSelectItemWrapper>
-            {attr.dropDownSelectItems.map((item, idx) => (
+            {attr.itemList.map((item, idx) => (
               <S.DropDownSelectItem
                 key={idx}
                 height={attr.height}
-                dropDownSelectItemHeight={attr.dropDownSelectItemHeight}
+                dropDownSelectItemHeight={attr.itemHeight}
                 onClick={() => {
-                  attr.setIsReverse((prev) => !prev);
+                  attr.setIsShowingItemList((prev) => !prev);
                   attr.setSelectItem(item);
                 }}
               >
